@@ -1,0 +1,97 @@
+class User:
+    def __init__(self,grade):
+        self.grade = grade
+        self.name = input("Enter your full name")
+        self.phone = input("Enter your Phone number")
+        self.email = input("Enter your Email address")
+        self.address = input("Enter your Home address")
+        self.password = input("Set your login password")
+        
+class Restaurant:
+    self.food_list = []
+    self.admin_user = []
+    self.consumer_user = []
+    
+    def create_user():
+        user = User("consumer")
+        self.consumer_user.append(user)
+        return 
+    def create_user():
+        user = User("admin")
+        self.admin_user.append(user)
+    
+    def login():
+        mode = int(input("Enter 1 for User.\nEnter 2 for admin\n: "))
+        if mode==2:
+            while True:
+                email = input("Enter your email address: ")
+                password = input('Enter your password')
+                for admin in self.admin_login:
+                    if admin.name = name and admin.password = password:
+                        print("Login Successfully)
+                        return admin
+        elif mode==1:
+            while True:
+                 email = input("Enter your email address: ")
+                password = input('Enter your password')
+                for user in self.user_login:
+                    if user.name == name and user.password == password
+                    print("User login Successful")
+                    return user
+                    else:
+                        print("Login failed, incorrect email address or password')
+                        
+
+        def do_action(self,user):
+            if user.grade == "consumer":
+                action = int(input("1. Register new user.\n2. Login."))
+                
+            elif user.grade == "admin":
+                action = int(input("1. Add food items to menu. \n2. Edit food item. \n3. View list of all food items. \n4. Remove food item from menu."))
+            g
+
+        
+    
+restaurant = Restaurant()
+
+class food:
+    def __init__(self):
+        self.name = input("Enter item name")
+        self.quantity = input("""Enter quantity(in units) :""")
+        while True
+            Try:
+                self.price = int(input("Enter price))
+                break
+            except valueError:
+                print("Price must be in digits")
+        global food_list
+        restaurant.food_list.append(self)
+    def __repr__(self):
+        return f"{self.name}({self.quantity}) [INR {self.price}]"
+   
+# Adding default menu items.
+item1 = food()
+item1.name = "Tandoori Chicken"
+item1.quantity = "4pieces"
+item1.price = 240
+restaurant.food_list.append(item1)
+item2 = food()
+item2.name = "Vegan Burger"
+item2.quantity = "1 piece"
+item2.price = 320
+restaurant.food_list.append(item2)
+item3.name = "Truffle Cake"
+item3.quantity = "500gm"
+item3.price = 900
+restaurant.food_list.append(item3)
+
+class Admin():
+    def __init__(self):
+        self.name = input("Enter your name: ")
+        self.password = input("Set your administrative password")
+       
+
+ 
+
+
+
